@@ -1,3 +1,4 @@
+
 let themeDots = document.getElementsByClassName('theme-dots');
 //saving to local storage
 

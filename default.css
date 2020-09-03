@@ -341,4 +341,7 @@ h6{font-size: 16px;}
     .right-column{
         justify-content: center;
     }
+    .main-container{
+        width: auto;
+    }
 }
