@@ -3,6 +3,7 @@ let themeDots = document.getElementsByClassName('theme-dots');
 //saving to local storage
 
 let theme= localStorage.getItem('theme');
+
 if(theme  == null)
 {
     setTheme('light');
@@ -13,7 +14,7 @@ else
 }
 
 // loop through all
-for(i=0; themeDots.length>i;i++)
+for(let i=0; themeDots.length>i;i++)
 {
     themeDots[i].addEventListener('click', function () {
         let mode = this.dataset.mode
